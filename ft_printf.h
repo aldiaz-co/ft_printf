@@ -13,8 +13,13 @@
 #ifndef FT_PRINTF_H
 # define FT_PRINTF_H
 
-# include <unistd.h>
 # include <stdarg.h>
+# include <stddef.h>
+# include <stdio.h>
+# include <stdlib.h>
+# include <string.h>
+# include <unistd.h>
+# include <limits.h>
 
 # define LOWERCASE_HEXADECIMAL "0123456789abcdef"
 # define UPPERCASE_HEXADECIMAL "0123456789ABCDEF"
@@ -23,17 +28,13 @@
 int		ft_printf(const char *str, ...);
 int		ft_check(va_list args, const char id);
 int		ft_putchar(int c);
-int		ft_printstr(char *str);
-void	ft_putstr(char *s);
+int		ft_putstr(char *str);
+int	    ft_putnbr(long n);
 int		ft_print_percent(void);
 
 void	ft_printf_hexa(unsigned long ptr);
 int		ft_len_hexa(unsigned long ptr);
 int		ft_hexadecimal(unsigned long ptr);
-
-int		ft_len_decimal(int n);
-void	ft_printf_decimal(int n);
-int		ft_decimal(int n);
 
 int		ft_unsigned(int n, char *base);
 

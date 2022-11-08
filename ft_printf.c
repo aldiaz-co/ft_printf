@@ -61,3 +61,10 @@ int	ft_printf(const char *str, ...)
 	va_end(args);
 	return (val);
 }
+
+int main()
+{
+	//void *c = "sdfghjk";
+	ft_printf("%i\n", -159);
+	printf("%i", -159);
+}

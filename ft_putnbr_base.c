@@ -51,7 +51,7 @@ int	ft_printxbase(int n, char *base)
 		value++;
 	}
 	if (nbr < size_base)
-		ft_printchar(base[nbr]);
+		ft_putchar(base[nbr]);
 	if (nbr >= size_base)
 	{
 		ft_printxbase(nbr / size_base, base);

@@ -36,7 +36,7 @@ int	ft_putstr(char *str)
 	return (i);
 }
 
-int	ft_putnbr(int long i)
+int	ft_putnbr(long n)
 {
 	int	count;
 
