@@ -6,7 +6,7 @@
 /*   By: aldiaz-c <aldiaz-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 21:01:46 by aldiaz-c          #+#    #+#             */
-/*   Updated: 2022/11/07 21:03:58 by aldiaz-c         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:32:01 by aldiaz-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ int		ft_printf(const char *str, ...);
 int		ft_check(va_list args, const char id);
 int		ft_putchar(int c);
 int		ft_putstr(char *str);
-int	    ft_putnbr(long n);
+int		ft_putnbr(long n);
 int		ft_print_percent(void);
 
 void	ft_printf_hexa(unsigned long ptr);

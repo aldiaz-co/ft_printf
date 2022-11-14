@@ -6,7 +6,7 @@
 /*   By: aldiaz-c <aldiaz-c@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/07 18:48:57 by aldiaz-c          #+#    #+#             */
-/*   Updated: 2022/11/07 21:32:02 by aldiaz-c         ###   ########.fr       */
+/*   Updated: 2022/11/14 17:27:35 by aldiaz-c         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,9 +62,8 @@ int	ft_printf(const char *str, ...)
 	return (val);
 }
 
-int main()
-{
-	//void *c = "sdfghjk";
-	ft_printf("%i\n", -159);
-	printf("%i", -159);
-}
+// int main()
+// {
+// 	ft_printf("%i\n", -159);
+// 	printf("%i", -159);
+// }
